@@ -1,11 +1,39 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="pt-br">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Culturama</title>
+    <title>Pesquisa Culturama</title>
 </head>
 <body>
-    
+    <head>
+        <h1>Pesquisa online</h1>
+    </head>
+    <main>
+        <section>
+            <form action="">
+                <fieldset>
+                    <legend>Dados pessoais</legend>
+                    <label for="userName">Nome</label>
+                    <input type="text" name="userName" required>
+                    <Br></Br>
+                    <label for="userAge">Idade</label>
+                    <input type="number" name="userAge" required min="12" max="100">
+                    <br>
+                    <label for="userBirthDate">Data de nascimento</label>
+                    <input type="date" name="userBirthDate" required>
+                    <br>
+                    <label for="userEmail">E-mail</label>
+                    <input type="email" name="userEmail" required>
+                    <br>
+                    <label for="userPhoneNumber">Telefone</label>
+                    <input type="tel" name="userPhoneNumber" required pattern="[0-9]{11}" placeholder="(xx) xxxx-xxxx">
+                    <br>
+                    <button type="submit">Enviar</button>
+                    <br>
+                </fieldset>
+            </form>
+        </section>
+    </main>
 </body>
 </html>
