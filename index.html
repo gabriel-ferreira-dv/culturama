@@ -29,9 +29,19 @@
                     <label for="userPhoneNumber">Telefone</label>
                     <input type="tel" name="userPhoneNumber" required pattern="[0-9]{11}" placeholder="(xx) xxxx-xxxx">
                     <br>
-                    <button type="submit">Enviar</button>
-                    <br>
                 </fieldset>
+                <fieldset>
+                    <legend>Perfil</legend>
+                    <p>Gênero:</p>
+                    <input type="radio" name="userGender" value="Feminino">
+                    <label for="userGender">Feminino</label>
+                    <input type="radio" name="userGender" value="Masculino">
+                    <label for="userGender">Masculino</label>
+                    <input type="radio" name="userGender" value="notInformed">
+                    <label for="userGender">Prefiro não informar</label>
+                    
+                </fieldset>
+                <button type="submit">Enviar</button>
             </form>
         </section>
     </main>
